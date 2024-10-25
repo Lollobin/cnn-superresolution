@@ -3,7 +3,11 @@ input/t91_hr_patches/
 input/t91_lr_patches/
 input/test_bicubic_rgb_2x/
 input/test_hr/
-outputs/
+outputs/loss.png
+outputs/psnr.png
+outputs/model.pth
+outputs/model_ckpt.pth
+outputs/valid_results/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
