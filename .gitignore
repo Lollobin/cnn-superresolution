@@ -8,6 +8,8 @@ outputs/psnr.png
 outputs/model.pth
 outputs/model_ckpt.pth
 outputs/valid_results/
+input/t91_hr/
+input/t91_lr/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
