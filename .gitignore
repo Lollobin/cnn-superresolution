@@ -1,8 +1,9 @@
 #Custom
-input/t91_hr_patches/
-input/t91_lr_patches/
-input/test_bicubic_rgb_2x/
-input/test_hr/
+input/
+!input/Set5/
+!input/Set14/
+!input/T91/
+
 outputs/loss.png
 outputs/psnr.png
 outputs/model.pth
