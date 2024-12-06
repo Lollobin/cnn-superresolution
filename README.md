@@ -1,26 +1,18 @@
-# dl-superresolution-ipynb
+# Applying Transfer Learning to Image Super-Resolution using CNNs
+
 A project for the course "Deep Learning for Visual Recognition" at Aarhus University.
 
 Group 42
+
 - Md Sadik Hasan Khan
 - Benno Kossatz
 - Andreas William Randrup Madsen
 
-## Setup
-1. Create a new virtual environment
-2. Install correct PyTorch version https://pytorch.org/get-started/locally/
-    - (Latest Cuda Version 12.4: `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124`)
-3. Install other requirements using `pip install -r requirements.txt`
+## Datasets
 
-## Git Workflow
-Trunk based development: New features are developed on short-lived feature branches that are merged into the main branch frequently. Feature branches should not exist longer than one week before being merged into the main branch.
+- T91: <https://www.kaggle.com/datasets/ll01dm/t91-image-dataset>
+- Set5 & Set14: <https://www.kaggle.com/datasets/ll01dm/set-5-14-super-resolution-dataset>
 
-Example of implementing a new feature:
-1. Create new branch with descriptive name (e.g. 'implement-mse-lossfunction')
-2. Implement the feature, commit frequently with descriptive commit messages.
-3. When implementation is finished:
-    - Merge main branch into feature branch to bring it up to the current state of development.
-    - Create pull request, assign other team members.
-    - Wait for pull request to be confirmed.
-    - Merge feature branch into main branch.
-    - Delete feature branch.
+## References
+
+ Some utility functions like the patch generation were taken from <https://debuggercafe.com/srcnn-implementation-in-pytorch-for-image-super-resolution/> (accessed 06.12.2024)
