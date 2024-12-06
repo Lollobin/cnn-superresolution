@@ -4,6 +4,7 @@ input/
 !input/Set14/
 !input/T91/
 
+outputs/images/
 outputs/loss.png
 outputs/psnr.png
 outputs/model.pth
