@@ -1,5 +1,9 @@
 # Applying Transfer Learning to Image Super-Resolution using CNNs
 
+![vggsr_comparison](https://github.com/user-attachments/assets/42223654-50e9-4f11-ba0a-7edf87dbef36)
+
+![DL-Model-Arch-Centered-Consistent](https://github.com/user-attachments/assets/4220b85e-0d20-4d75-bd85-8952a6ff6b56)
+
 A project for the course "Deep Learning for Visual Recognition" at Aarhus University. A CNN was trained to perform Image Super-Resolution. The process and findings are documented in `deep_learning_group42.pdf`.
 
 ## Getting Started
