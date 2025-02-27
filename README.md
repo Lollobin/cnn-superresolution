@@ -1,18 +1,24 @@
 # Applying Transfer Learning to Image Super-Resolution using CNNs
 
-A project for the course "Deep Learning for Visual Recognition" at Aarhus University.
+A project for the course "Deep Learning for Visual Recognition" at Aarhus University. A CNN was trained to perform Image Super-Resolution. The process and findings are documented in `deep_learning_group42.pdf`.
 
-Group 42
+## Getting Started
 
-- Md Sadik Hasan Khan
-- Benno Kossatz
-- Andreas William Randrup Madsen
+The whole project is contained and can be executed via the Jupyter Notebook `dl-superresolution.ipynb`.
 
-## Datasets
+## Credits
 
-- T91: <https://www.kaggle.com/datasets/ll01dm/t91-image-dataset>
-- Set5 & Set14: <https://www.kaggle.com/datasets/ll01dm/set-5-14-super-resolution-dataset>
+Collaborators
 
-## References
+- [Md Sadik Hasan Khan](<https://github.com/sadik9>)
+- [Benno Kossatz](<https://github.com/Lollobin>)
+- [Andreas William Randrup Madsen](<https://github.com/AndreasWRM>)
 
- Some utility functions like the patch generation were taken from <https://debuggercafe.com/srcnn-implementation-in-pytorch-for-image-super-resolution/> (accessed 06.12.2024)
+Resources
+
+- Datasets: [T91](<https://www.kaggle.com/datasets/ll01dm/t91-image-dataset>), [Set5 & Set14](<https://www.kaggle.com/datasets/ll01dm/set-5-14-super-resolution-dataset>)
+- Some utility functions like the patch generation were taken from <https://debuggercafe.com/srcnn-implementation-in-pytorch-for-image-super-resolution/> (accessed 06.12.2024)
+
+## License
+
+This project is licensed under the MIT License.
